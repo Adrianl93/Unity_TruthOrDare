@@ -1,29 +1,29 @@
 using UnityEngine;
-using System;
 using UnityEngine.InputSystem;
+using System;
 
 public class InputManager : MonoBehaviour
 {
-    public static InputManager Instance;
+    public static InputManager Instance { get; private set; }
 
     private PlayerInputActions input;
 
+    // Eventos públicos (no referencias directas)
     public event Action OnSpin;
     public event Action OnConfirm;
     public event Action OnCancel;
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
+        // Singleton robusto
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
         }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
         input = new PlayerInputActions();
     }
@@ -33,16 +33,59 @@ public class InputManager : MonoBehaviour
         if (input == null)
             input = new PlayerInputActions();
 
-        input.Enable();
-
-        input.Gameplay.Spin.performed += ctx => OnSpin?.Invoke();
-        input.Gameplay.Confirm.performed += ctx => OnConfirm?.Invoke();
-        input.Gameplay.Cancel.performed += ctx => OnCancel?.Invoke();
+        EnableGameplayInput();
     }
 
     private void OnDisable()
     {
-        if (input != null)
-            input.Disable();
+        DisableGameplayInput();
+    }
+
+    private void OnDestroy()
+    {
+        DisableGameplayInput();
+    }
+
+    // -----------------------------
+    // INPUT MAP CONTROL
+    // -----------------------------
+
+    public void EnableGameplayInput()
+    {
+        input.Gameplay.Enable();
+
+        input.Gameplay.Spin.performed += OnSpinPerformed;
+        input.Gameplay.Confirm.performed += OnConfirmPerformed;
+        input.Gameplay.Cancel.performed += OnCancelPerformed;
+    }
+
+    public void DisableGameplayInput()
+    {
+        if (input == null) return;
+
+        input.Gameplay.Spin.performed -= OnSpinPerformed;
+        input.Gameplay.Confirm.performed -= OnConfirmPerformed;
+        input.Gameplay.Cancel.performed -= OnCancelPerformed;
+
+        input.Gameplay.Disable();
+    }
+
+    // -----------------------------
+    // CALLBACKS INTERNOS
+    // -----------------------------
+
+    private void OnSpinPerformed(InputAction.CallbackContext context)
+    {
+        OnSpin?.Invoke();
+    }
+
+    private void OnConfirmPerformed(InputAction.CallbackContext context)
+    {
+        OnConfirm?.Invoke();
+    }
+
+    private void OnCancelPerformed(InputAction.CallbackContext context)
+    {
+        OnCancel?.Invoke();
     }
 }

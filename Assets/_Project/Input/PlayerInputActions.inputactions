@@ -4,12 +4,12 @@
     "maps": [
         {
             "name": "Gameplay",
-            "id": "dc966558-8efa-47e5-8630-f48d513c2d5f",
+            "id": "c0640b7a-8056-4743-883a-90d03ccd8984",
             "actions": [
                 {
                     "name": "Spin",
                     "type": "Button",
-                    "id": "388a18bc-ee9c-4cea-9d74-457065bc3fe2",
+                    "id": "b0eabd42-4f2c-4d49-886b-f6cd3d66be74",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -18,7 +18,7 @@
                 {
                     "name": "Confirm",
                     "type": "Button",
-                    "id": "94a2c1e9-02e8-4115-b538-6356bd47caa2",
+                    "id": "f2bdb48a-2a48-4fb4-83db-81d77b78e925",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -27,7 +27,7 @@
                 {
                     "name": "Cancel",
                     "type": "Button",
-                    "id": "2bc34d70-4969-449a-baf2-54a08ab0c5ff",
+                    "id": "33bf0346-5531-4ea9-97bf-a5d65bfedb99",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -37,7 +37,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "99b803a7-87b8-4ec1-8ccf-4614e0af5545",
+                    "id": "5a1a5b0a-3982-4e6b-857a-38b9a8a399f9",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -48,8 +48,8 @@
                 },
                 {
                     "name": "",
-                    "id": "824a8306-695c-44ce-9753-433a59511fc1",
-                    "path": "<Touchscreen>/Press",
+                    "id": "ea887962-7ef7-45e6-b5a8-8b876ba302c7",
+                    "path": "<Touchscreen>/touch*/Press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -59,18 +59,7 @@
                 },
                 {
                     "name": "",
-                    "id": "1383e4ed-48c3-4da9-87d0-211da92ac0f2",
-                    "path": "<AndroidGamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Spin",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a7e49403-7d23-4eb6-b779-4b7003c02ec3",
+                    "id": "478f419a-dfb7-4df7-98ae-7c2cf9af4a91",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
@@ -81,7 +70,7 @@
                 },
                 {
                     "name": "",
-                    "id": "0b1ea8bd-ed0e-4e01-a8c0-8170b7cd7087",
+                    "id": "c6bea8d0-32e6-4941-a8dc-00f9afea466d",
                     "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
@@ -92,18 +81,7 @@
                 },
                 {
                     "name": "",
-                    "id": "01028677-85e5-4cc0-a43c-98df50fe94a6",
-                    "path": "<Keyboard>/numpadEnter",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Confirm",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "529057fd-01f0-4f34-8d43-8cb57413336c",
+                    "id": "e16a3225-310e-4dfa-9016-cee776313e2c",
                     "path": "<Touchscreen>/primaryTouch/tap",
                     "interactions": "",
                     "processors": "",
@@ -114,7 +92,7 @@
                 },
                 {
                     "name": "",
-                    "id": "aab83cfd-6118-47ad-b9d6-5094db4fafde",
+                    "id": "c7df66e7-1a56-46da-a044-68bd701571bd",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
@@ -125,7 +103,7 @@
                 },
                 {
                     "name": "",
-                    "id": "d6e0b290-cdbb-4eed-8f29-3fca2fcd1991",
+                    "id": "a432f845-bba1-4344-ac02-4f2ee83083ba",
                     "path": "*/{Back}",
                     "interactions": "",
                     "processors": "",

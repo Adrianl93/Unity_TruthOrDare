@@ -1,0 +1,1061 @@
+{
+  "category": "Normal",
+  "Truth": {
+    "VeryEasy": [
+      {
+        "id": "N-T-VE-001",
+        "description": "¿Cuál es tu color favorito?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-002",
+        "description": "¿Qué comida te gusta más?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-003",
+        "description": "¿Tienes alguna mascota?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-004",
+        "description": "¿Cuál es tu estación del año favorita?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-005",
+        "description": "¿Prefieres la playa o la montaña?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-006",
+        "description": "¿Te gustan las sorpresas?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-007",
+        "description": "¿Cuál es tu hobby favorito?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-008",
+        "description": "¿Qué prefieres: cine o teatro?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-009",
+        "description": "¿Te gustan los deportes? ¿Cuáles?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-010",
+        "description": "¿Tienes alguna canción que te haga sentir bien?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-011",
+        "description": "¿Te gusta cocinar?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-012",
+        "description": "¿Cuál es tu película favorita?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-013",
+        "description": "¿Te gustan los animales? ¿Tienes algún favorito?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-014",
+        "description": "¿Prefieres dormir mucho o poco?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-015",
+        "description": "¿Qué harías si fueras invisible por un día?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-016",
+        "description": "¿Te gustan las fiestas o prefieres estar en casa?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-017",
+        "description": "¿Qué harías si fueras rico?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-018",
+        "description": "¿Cuál es tu prenda de ropa favorita?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-019",
+        "description": "¿Te gusta viajar? ¿A dónde te gustaría ir?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-020",
+        "description": "¿Cuál es tu bebida favorita?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-021",
+        "description": "¿Tienes algún talento oculto?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-022",
+        "description": "¿Te gustaría aprender a tocar algún instrumento?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-023",
+        "description": "¿Qué harías si pudieras volar?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-024",
+        "description": "¿Cuál es tu deporte favorito?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-025",
+        "description": "¿Cuál es tu serie de televisión favorita?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-026",
+        "description": "¿Te gustaría tener superpoderes?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-027",
+        "description": "¿Quién es tu persona más importante?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-028",
+        "description": "¿Qué harías si fueras famoso?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-029",
+        "description": "¿Te gusta el arte?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-VE-030",
+        "description": "¿Tienes algún amigo de la infancia con quien sigues en contacto?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      }
+    ],
+    "Easy": [
+      {
+        "id": "N-T-E-001",
+        "description": "¿Quién es tu mejor amigo?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-002",
+        "description": "¿Cuál es tu película favorita?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-003",
+        "description": "¿Te gustaría vivir en el extranjero?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-004",
+        "description": "¿Cuál es tu lugar favorito en el mundo?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-005",
+        "description": "¿Te gusta más la comida salada o dulce?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-006",
+        "description": "¿Tienes alguna tradición especial en tu familia?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-007",
+        "description": "¿Qué harías si pudieras ser otra persona por un día?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-008",
+        "description": "¿Qué prefieres: leer un libro o ver una película?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-009",
+        "description": "¿Te gustaría aprender un nuevo idioma?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-010",
+        "description": "¿Te gustan las sorpresas?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-011",
+        "description": "¿Tienes alguna superstición?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-012",
+        "description": "¿Cuál es tu mejor recuerdo de la infancia?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-013",
+        "description": "¿Cuál es tu estación del año favorita?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-014",
+        "description": "¿Te gustaría tener una mascota exótica?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-015",
+        "description": "¿Te consideras una persona madrugadora o nocturna?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-016",
+        "description": "¿Tienes alguna meta para este año?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-017",
+        "description": "¿Te gustaría ser artista?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-018",
+        "description": "¿Te gustaría tener más tiempo libre?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-019",
+        "description": "¿Cuál es tu sueño más grande?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-020",
+        "description": "¿Qué harías si supieras que te queda poco tiempo de vida?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-021",
+        "description": "¿Tienes alguna rutina matutina?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-022",
+        "description": "¿Te gustan las películas de terror?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-023",
+        "description": "¿Te gustaría ser famoso?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-024",
+        "description": "¿Prefieres vivir en una ciudad grande o en el campo?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-025",
+        "description": "¿Te gustaría cambiar algo de ti?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-026",
+        "description": "¿Te gustaría hacer algo extremo alguna vez?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-027",
+        "description": "¿Te gustaría ser dueño de tu propio negocio?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-T-E-028",
+        "description": "¿Te gustan las actividades al aire libre?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      }
+    ],
+    "Medium": [
+      {
+        "id": "N-T-M-001",
+        "description": "¿Cuál es tu mayor miedo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-002",
+        "description": "Si pudieras cambiar algo de ti, ¿qué sería?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-003",
+        "description": "¿Cuál ha sido tu mayor logro?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-004",
+        "description": "¿Te gustaría vivir sin tecnología por un mes?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-005",
+        "description": "¿Qué te gustaría aprender a hacer?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-006",
+        "description": "¿Te has sentido alguna vez avergonzado frente a mucha gente?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-007",
+        "description": "¿Cuál es la decisión más importante que has tomado?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-008",
+        "description": "¿Qué harías si pudieras retroceder el tiempo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-009",
+        "description": "¿Te gustaría tener más amigos?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-010",
+        "description": "¿Tienes alguna fobia?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-011",
+        "description": "¿Te atreverías a cambiar de ciudad sin conocer a nadie?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-012",
+        "description": "¿Tienes algún lugar que te inspire paz?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-013",
+        "description": "¿Qué harías si fueras el presidente de tu país?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-014",
+        "description": "¿Tienes alguna cualidad que te gustaría mejorar?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-015",
+        "description": "¿Te atreverías a mudarte a otro país sin saber el idioma?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-016",
+        "description": "¿Cuál es tu sueño no cumplido?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-017",
+        "description": "¿Qué prefieres: ser muy inteligente o muy atractivo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-018",
+        "description": "¿Qué te hace sentir inseguro?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-019",
+        "description": "¿Cuál es tu principal motivación en la vida?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-020",
+        "description": "¿Qué harías si no tuvieras miedo de fallar?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-021",
+        "description": "¿Tienes alguna filosofía de vida?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-022",
+        "description": "¿Te consideras una persona introvertida o extrovertida?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-023",
+        "description": "¿Has cambiado mucho en los últimos 5 años?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-024",
+        "description": "¿Qué harías si te ofrecieran un trabajo en otro país?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-025",
+        "description": "¿Alguna vez has pensado en dejar todo y empezar de nuevo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-026",
+        "description": "¿Te gustaría hacer un viaje largo sin un plan definido?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-027",
+        "description": "¿Te gustaría saber lo que la gente piensa de ti?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-T-M-028",
+        "description": "¿Alguna vez has tenido una pelea importante con un amigo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      }
+    ],
+    "Hard": [
+      {
+        "id": "N-T-H-001",
+        "description": "¿Cuál es tu mayor arrepentimiento?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-002",
+        "description": "¿Alguna vez has hecho algo que te avergüenza?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-003",
+        "description": "¿Qué harías si supieras que solo te queda un día de vida?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-004",
+        "description": "¿Tienes alguna relación con alguien que no quieras que los demás sepan?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-005",
+        "description": "¿Alguna vez has tenido que tomar una decisión que cambió tu vida para siempre?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-006",
+        "description": "¿Te atreverías a dejar todo y empezar una nueva vida?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-007",
+        "description": "¿Cuál es la decisión más difícil que has tenido que tomar?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-008",
+        "description": "¿Alguna vez has ocultado algo importante de tu familia o amigos?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-009",
+        "description": "¿Qué harías si tuvieras que elegir entre un amor o tu sueño?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-010",
+        "description": "¿Alguna vez has mentido sobre algo importante?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-011",
+        "description": "¿Qué harías si alguien te pidiera un gran favor sin esperar nada a cambio?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-012",
+        "description": "¿Qué harías si te descubrieran haciendo algo prohibido?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-013",
+        "description": "¿Alguna vez has tenido una experiencia que cambiara tu manera de ver el mundo?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-014",
+        "description": "¿Tienes algún miedo que te impide tomar decisiones importantes?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-015",
+        "description": "¿Te gustaría saber qué dirán de ti cuando ya no estés?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-016",
+        "description": "¿Alguna vez has hecho algo que te hizo sentir muy culpable?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-017",
+        "description": "¿Qué harías si alguien te dijera que está enamorado de ti y no lo esperabas?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-018",
+        "description": "¿Qué harías si tu pareja te pidiera algo que no estás dispuesto a hacer?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-019",
+        "description": "¿Te arrepientes de no haber hecho algo en tu vida?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-020",
+        "description": "¿Qué harías si tu mejor amigo te traicionara?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-021",
+        "description": "¿Te atreverías a dar una segunda oportunidad a alguien que te falló?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-022",
+        "description": "¿Has tenido alguna vez una relación amorosa que sabías que no iba a funcionar?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-023",
+        "description": "¿Te gustaría saber la verdad sobre algo que te han ocultado?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-024",
+        "description": "¿Alguna vez has cambiado de opinión sobre algo muy importante?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-025",
+        "description": "¿Alguna vez has roto el corazón de alguien?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-026",
+        "description": "¿Qué harías si alguien te pide que dejes tu trabajo actual por uno mejor?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-T-H-027",
+        "description": "¿Te atreverías a hacer algo ilegal si no te descubrieran?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      }
+    ]
+  },
+  "Dare": {
+    "VeryEasy": [
+      {
+        "id": "N-D-VE-001",
+        "description": "Canta una canción",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-002",
+        "description": "Baila durante 30 segundos",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-003",
+        "description": "Haz una imitación de alguien",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-004",
+        "description": "Haz 10 saltos de tijera",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-005",
+        "description": "Haz una cara divertida",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-006",
+        "description": "Canta el coro de tu canción favorita",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-007",
+        "description": "Baila como si estuvieras en una fiesta",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-008",
+        "description": "Imita un animal",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-009",
+        "description": "Haz una pose graciosa para una foto",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-010",
+        "description": "Haz una vuelta completa sobre ti mismo",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-011",
+        "description": "Actúa como si fueras un robot",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-012",
+        "description": "Haz 10 sentadillas",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-013",
+        "description": "Haz una mueca",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-014",
+        "description": "Habla como un personaje famoso por 1 minuto",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-015",
+        "description": "Haz 5 flexiones de brazos",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-016",
+        "description": "Haz una imitación de tu celebridad favorita",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-017",
+        "description": "Canta la letra de una canción sin música",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-018",
+        "description": "Haz 10 abdominales",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-019",
+        "description": "Actúa como si fueras un superhéroe",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-VE-020",
+        "description": "Dile algo divertido a la persona a tu derecha",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      }
+    ],
+    "Easy": [
+      {
+        "id": "N-D-E-001",
+        "description": "Imita a un animal",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-002",
+        "description": "Haz 20 flexiones",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-003",
+        "description": "Llama a alguien y dile que lo quieres",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-004",
+        "description": "Baila durante 1 minuto",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-005",
+        "description": "Haz 10 saltos en el lugar",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-006",
+        "description": "Haz una llamada y dile algo gracioso",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-007",
+        "description": "Haz 30 segundos de abdominales",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-008",
+        "description": "Imita a un personaje de película",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-009",
+        "description": "Dile un chiste a alguien",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-010",
+        "description": "Haz una coreografía improvisada",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-011",
+        "description": "Baila como si estuvieras en un escenario",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-012",
+        "description": "Haz 20 sentadillas",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-013",
+        "description": "Llama a un amigo y cántale una canción",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-014",
+        "description": "Actúa como si fueras una persona famosa",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-015",
+        "description": "Haz una llamada a un amigo y cuéntale un chiste",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-016",
+        "description": "Haz 20 saltos de tijera",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-017",
+        "description": "Llama a alguien y dile que eres una celebridad",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-018",
+        "description": "Imita a una celebridad famosa",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-019",
+        "description": "Haz una coreografía de una canción famosa",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "N-D-E-020",
+        "description": "Haz una llamada a un amigo y dile que te has ganado un concurso",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      }
+    ],
+    "Medium": [
+      {
+        "id": "N-D-M-001",
+        "description": "Haz un reto físico",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-002",
+        "description": "Imita a una celebridad",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-003",
+        "description": "Habla en otro idioma durante un minuto",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-004",
+        "description": "Canta una canción a todo pulmón",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-005",
+        "description": "Baila en el estilo de una época (años 80, 90, etc.)",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-006",
+        "description": "Haz una acrobacia",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-007",
+        "description": "Haz una llamada a alguien y dile algo raro",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-008",
+        "description": "Canta una canción con la voz de alguien más",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-009",
+        "description": "Haz una llamada a un amigo y cántale una canción en vivo",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "N-D-M-010",
+        "description": "Habla como un personaje famoso durante 1 minuto",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      }
+    ],
+    "Hard": [
+      {
+        "id": "N-D-H-001",
+        "description": "Baila como si nadie te estuviera mirando por 1 minuto",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-002",
+        "description": "Realiza un reto extremo como hacer una llamada a alguien y decir algo raro",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-003",
+        "description": "Haz una llamada improvisada a alguien y dile algo gracioso",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-004",
+        "description": "Canta una canción mientras haces 10 saltos",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-005",
+        "description": "Haz 50 flexiones en 2 minutos",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-006",
+        "description": "Haz una llamada a alguien y dile que has hecho algo muy vergonzoso",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-007",
+        "description": "Baila como si estuvieras en un concurso de baile",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-008",
+        "description": "Haz una llamada improvisada y dile algo gracioso a alguien",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-009",
+        "description": "Haz una coreografía improvisada para todo el grupo",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "N-D-H-010",
+        "description": "Llama a un amigo y cuéntale una historia inventada",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      }
+    ]
+  }
+}

@@ -1,0 +1,1049 @@
+{
+  "category": "Party",
+  "Truth": {
+    "VeryEasy": [
+      {
+        "id": "P-T-VE-001",
+        "description": "¿Te has enamorado alguna vez?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-002",
+        "description": "¿Qué es lo más raro que has comido?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-003",
+        "description": "¿Qué te gustaría lograr este año?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-004",
+        "description": "¿Te gusta más el verano o el invierno?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-005",
+        "description": "¿Alguna vez has tenido una cita a ciegas?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-006",
+        "description": "¿Qué harías si te encuentras con un famoso en la calle?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-007",
+        "description": "¿Tienes alguna superstición?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-008",
+        "description": "¿Has tenido alguna vez una gran sorpresa?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-009",
+        "description": "¿Te gusta cantar en público?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-010",
+        "description": "¿Te gustaría ser una persona diferente por un día?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-011",
+        "description": "¿Cuál es la peor película que has visto?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-012",
+        "description": "¿Cuál es tu peor hábito?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-013",
+        "description": "¿Te has sentido alguna vez avergonzado frente a mucha gente?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-014",
+        "description": "¿Cuál es la broma más graciosa que has escuchado?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-015",
+        "description": "¿Te has peleado alguna vez con un amigo cercano?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-016",
+        "description": "¿Te gusta viajar a lugares extraños?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-017",
+        "description": "¿Qué harías si te ganaras la lotería?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-018",
+        "description": "¿Te gusta hacer cosas atrevidas?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-019",
+        "description": "¿Te gustaría vivir en una ciudad muy grande?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-020",
+        "description": "¿Cuál es el sueño más raro que has tenido?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-021",
+        "description": "¿Tienes alguna fobia rara?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-022",
+        "description": "¿Has hecho alguna vez algo por impulso?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-023",
+        "description": "¿Qué harías si fueras invisible por un día?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-024",
+        "description": "¿Te consideras una persona aventurera?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-025",
+        "description": "¿Has tenido alguna cita vergonzosa?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-026",
+        "description": "¿Te gustaría aprender a bailar?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-027",
+        "description": "¿Tienes algún amigo muy raro?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-VE-028",
+        "description": "¿Te gusta organizar fiestas?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      }
+    ],
+    "Easy": [
+      {
+        "id": "P-T-E-001",
+        "description": "¿Has viajado a algún lugar fuera del país?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-002",
+        "description": "¿Te gustaría vivir sin teléfono por un mes?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-003",
+        "description": "¿Cuál es el lugar más extraño donde has dormido?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-004",
+        "description": "¿Te gustan las fiestas? ¿Qué tipo de fiesta prefieres?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-005",
+        "description": "¿Alguna vez has tenido una cita embarazosa?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-006",
+        "description": "¿Qué harías si te encuentras con tu ex por casualidad?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-007",
+        "description": "¿Te gustaría hacer algo muy loco algún día?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-008",
+        "description": "¿Tienes algún talento oculto que te gustaría compartir?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-009",
+        "description": "¿Te gustaría ser famosa o famoso?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-010",
+        "description": "¿Has hecho alguna vez algo espontáneo?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-011",
+        "description": "¿Te gustaría viajar a un lugar exótico?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-012",
+        "description": "¿Has tenido alguna vez una experiencia sobrenatural?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-013",
+        "description": "¿Tienes alguna superstición?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-014",
+        "description": "¿Te consideras una persona extrovertida?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-015",
+        "description": "¿Qué es lo más gracioso que te ha pasado?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-016",
+        "description": "¿Qué harías si fueras famoso por un día?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-017",
+        "description": "¿Has hecho alguna vez una travesura?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-018",
+        "description": "¿Cuál es el lugar más raro donde has ido de fiesta?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-019",
+        "description": "¿Te gustaría hacer una fiesta temática?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-020",
+        "description": "¿Tienes algún amigo que siempre te haga reír?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-021",
+        "description": "¿Te has disfrazado alguna vez para una fiesta?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-022",
+        "description": "¿Te gustaría vivir en otra época?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-023",
+        "description": "¿Qué harías si pudieras organizar una fiesta sorpresa?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-024",
+        "description": "¿Alguna vez has hecho algo sin pensar en las consecuencias?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-025",
+        "description": "¿Cuál es tu tipo de música favorita para bailar?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-026",
+        "description": "¿Te gustaría ser DJ en una fiesta?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-027",
+        "description": "¿Has ido alguna vez a un evento muy exclusivo?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-T-E-028",
+        "description": "¿Te gustaría que alguien te sorprendiera con algo inesperado?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      }
+    ],
+    "Medium": [
+      {
+        "id": "P-T-M-001",
+        "description": "¿Te has sentido alguna vez avergonzado frente a un grupo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-002",
+        "description": "¿Alguna vez has tenido una cita embarazosa?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-003",
+        "description": "¿Tienes alguna superstición?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-004",
+        "description": "¿Te gustaría organizar un evento gigante?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-005",
+        "description": "¿Te atreverías a hacer algo loco en público?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-006",
+        "description": "¿Te gustaría hacer un viaje sin destino fijo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-007",
+        "description": "¿Tienes alguna historia graciosa de una fiesta?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-008",
+        "description": "¿Alguna vez has hecho un reto de beber en una fiesta?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-009",
+        "description": "¿Te gustaría conocer a alguien famoso?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-010",
+        "description": "¿Alguna vez has hecho algo vergonzoso en una fiesta?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-011",
+        "description": "¿Cuál es tu recuerdo más gracioso de la escuela?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-012",
+        "description": "¿Qué es lo más raro que has hecho por diversión?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-013",
+        "description": "¿Te atreverías a hacer un reto de beber algo raro?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-014",
+        "description": "¿Tienes alguna anécdota divertida de una fiesta?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-015",
+        "description": "¿Te gustaría participar en un concurso de talentos?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-016",
+        "description": "¿Alguna vez te has disfrazado para una fiesta y nadie te reconoció?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-017",
+        "description": "¿Qué harías si alguien te reta a hacer algo loco en público?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-018",
+        "description": "¿Te atreverías a cantar frente a un público desconocido?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-019",
+        "description": "¿Qué harías si tu amigo te reta a hacer algo vergonzoso?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-020",
+        "description": "¿Te has peleado alguna vez en una fiesta?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-021",
+        "description": "¿Te gustaría asistir a una fiesta temática extravagante?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-022",
+        "description": "¿Tienes alguna anécdota graciosa sobre una noche de copas?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-023",
+        "description": "¿Te atreverías a hacer un reto de beber algo picante?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-024",
+        "description": "¿Alguna vez has ganado un reto de beber en una fiesta?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-025",
+        "description": "¿Te gustaría hacer una fiesta en la playa?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-T-M-026",
+        "description": "¿Alguna vez has hecho una apuesta muy loca?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      }
+    ],
+    "Hard": [
+      {
+        "id": "P-T-H-001",
+        "description": "¿Has tenido algún sueño raro que te gustaría compartir?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-002",
+        "description": "¿Qué harías si te encontraras con tu ex por casualidad?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-003",
+        "description": "Si tuvieras un millón de dólares, ¿qué harías con él?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-004",
+        "description": "¿Alguna vez te has quedado atrapado en una fiesta sin querer?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-005",
+        "description": "¿Te gustaría cambiar algo de tu vida en este momento?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-006",
+        "description": "¿Te atreverías a hacer un reto de beber algo que nunca has probado?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-007",
+        "description": "¿Qué harías si te retaran a hacer algo loco en una fiesta?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-008",
+        "description": "¿Te atreverías a hacer una broma pesada a alguien?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-009",
+        "description": "¿Te gustaría conocer a alguien famoso y pasar el día con él?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-010",
+        "description": "¿Has hecho alguna vez un reto de beber en el que no pudiste continuar?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-011",
+        "description": "¿Cuál ha sido el reto más difícil que has aceptado en una fiesta?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-012",
+        "description": "¿Te atreverías a organizar una fiesta sorpresa para todos?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-013",
+        "description": "¿Qué harías si te pidieran organizar una fiesta temática completamente loca?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-014",
+        "description": "¿Te gustaría participar en un concurso de baile espontáneo?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-015",
+        "description": "¿Te atreverías a hacer una apuesta arriesgada en una fiesta?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-016",
+        "description": "¿Has participado alguna vez en una fiesta donde pasaron cosas inesperadas?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-017",
+        "description": "¿Te gustaría hacer una fiesta de disfraces en una ciudad desconocida?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-018",
+        "description": "¿Has hecho alguna vez una locura en una fiesta que te arrepientes?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-019",
+        "description": "¿Alguna vez has jugado a un juego de beber con reglas muy raras?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-020",
+        "description": "¿Te atreverías a organizar un evento con muchas personas desconocidas?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-021",
+        "description": "¿Te gustaría ser el centro de atención en una fiesta muy grande?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-022",
+        "description": "¿Te atreverías a hacer una broma a tu jefe o profesor?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-023",
+        "description": "¿Alguna vez has tenido una pelea o discusión muy seria en una fiesta?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-024",
+        "description": "¿Te gustaría hacer un reto en una fiesta que involucre a todos?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-T-H-025",
+        "description": "¿Has hecho alguna vez algo extremadamente vergonzoso en una fiesta?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      }
+    ]
+  },
+  "Dare": {
+    "VeryEasy": [
+      {
+        "id": "P-D-VE-001",
+        "description": "Canta una canción graciosa",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-002",
+        "description": "Haz una imitación de tu celebridad favorita",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-003",
+        "description": "Dile un chiste a la persona a tu derecha",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-004",
+        "description": "Baila como un loco por 30 segundos",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-005",
+        "description": "Haz una llamada y habla como un robot",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-006",
+        "description": "Imita a un personaje de película",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-007",
+        "description": "Haz una vuelta completa sobre ti mismo",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-008",
+        "description": "Baila como si estuvieras en una fiesta",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-009",
+        "description": "Haz 10 saltos de tijera",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-010",
+        "description": "Canta el coro de una canción famosa",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-011",
+        "description": "Haz una cara graciosa para una foto",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-012",
+        "description": "Imita a un animal",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-013",
+        "description": "Haz una mueca",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-014",
+        "description": "Baila como si estuvieras en un escenario",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-015",
+        "description": "Actúa como un robot durante 1 minuto",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-016",
+        "description": "Haz una pose graciosa",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-017",
+        "description": "Imita a una celebridad",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-018",
+        "description": "Haz 20 saltos en el lugar",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-019",
+        "description": "Canta una canción famosa",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-VE-020",
+        "description": "Haz 10 abdominales",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      }
+    ],
+    "Easy": [
+      {
+        "id": "P-D-E-001",
+        "description": "Baila como un loco por 30 segundos",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-002",
+        "description": "Haz una llamada y habla como un robot",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-003",
+        "description": "Imita a un personaje de película",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-004",
+        "description": "Dile un chiste a alguien",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-005",
+        "description": "Haz una coreografía improvisada",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-006",
+        "description": "Baila como si estuvieras en un escenario",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-007",
+        "description": "Haz 20 sentadillas",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-008",
+        "description": "Llama a un amigo y cántale una canción",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-009",
+        "description": "Haz una llamada y dile algo gracioso",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-010",
+        "description": "Haz 30 segundos de abdominales",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-011",
+        "description": "Haz una coreografía de una canción famosa",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-012",
+        "description": "Canta el coro de una canción famosa",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-013",
+        "description": "Actúa como si fueras una persona famosa",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-014",
+        "description": "Haz una llamada a un amigo y cántale una canción",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-015",
+        "description": "Haz 20 saltos de tijera",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-016",
+        "description": "Haz una imitación de tu celebridad favorita",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-017",
+        "description": "Baila durante 1 minuto",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-018",
+        "description": "Haz una llamada a un amigo y dile que lo quieres",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "P-D-E-019",
+        "description": "Imita a tu animal favorito",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      }
+    ],
+    "Medium": [
+      {
+        "id": "P-D-M-001",
+        "description": "Haz una acrobacia",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-002",
+        "description": "Imita a un animal salvaje",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-003",
+        "description": "Habla en voz alta durante 1 minuto",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-004",
+        "description": "Haz una llamada y dile algo gracioso",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-005",
+        "description": "Baila en el estilo de los años 80",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-006",
+        "description": "Haz una vuelta completa y corre durante 30 segundos",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-007",
+        "description": "Imita una escena de película",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-008",
+        "description": "Baila como si estuvieras en un escenario",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-009",
+        "description": "Haz un reto de confianza con alguien del grupo",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-010",
+        "description": "Haz una llamada a alguien y dile algo raro",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-011",
+        "description": "Haz 50 flexiones",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-012",
+        "description": "Canta con mucha energía",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-013",
+        "description": "Imita un personaje de película",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-014",
+        "description": "Haz una llamada a tu crush y dile algo atrevido",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "P-D-M-015",
+        "description": "Haz una acrobacia",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      }
+    ],
+    "Hard": [
+      {
+        "id": "P-D-H-001",
+        "description": "Haz una llamada a alguien y dile que te has ganado un concurso",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-002",
+        "description": "Haz 50 flexiones en 1 minuto",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-003",
+        "description": "Haz una llamada improvisada cantando",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-004",
+        "description": "Haz una broma pesada a alguien",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-005",
+        "description": "Haz una llamada a tu ex y dile que lo extrañas",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-006",
+        "description": "Haz un striptease improvisado para el grupo",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-007",
+        "description": "Haz un reto de beber algo muy raro",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-008",
+        "description": "Haz un desafío de baile muy atrevido",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-009",
+        "description": "Haz una llamada a alguien y dile que te has quedado atrapado en un lugar",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "P-D-H-010",
+        "description": "Imita a una celebridad muy famosa durante 2 minutos",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      }
+    ]
+  }
+}
