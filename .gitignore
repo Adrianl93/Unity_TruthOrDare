@@ -102,3 +102,8 @@ Library/ShaderCache/
 
 # --- UnityHub Logs ---
 UnityHub/
+
+# --- Extreme version ---
+Assets/_Project/Scripts/Data/Challenges/Extreme.json
+Assets/_Project/Scripts/Data/Challenges/Extreme.json.meta
+

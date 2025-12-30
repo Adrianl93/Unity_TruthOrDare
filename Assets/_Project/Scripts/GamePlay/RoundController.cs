@@ -1,16 +1,50 @@
 using UnityEngine;
 
-public class RoundController : MonoBehaviour
+public class RoundManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static RoundManager Instance { get; private set; }
+
+    private WheelResult currentWheelResult;
+    private ChallengeCard currentChallenge;
+
+    private void Awake()
     {
-        
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StartRound()
     {
-        
+        Debug.Log("Round started");
+
+        // 1. Espera spin
+    }
+
+    public void ResolveSpin(WheelResult result)
+    {
+        currentWheelResult = result;
+
+        currentChallenge = ChallengeManager.Instance.GetRandomChallenge(
+            result.Type,
+            result.Difficulty
+        );
+
+        Debug.Log($"Resultado: {result.Type} | {result.Difficulty}");
+        Debug.Log($"Desafío: {currentChallenge.description}");
+    }
+
+    public void CompleteRound(bool success)
+    {
+        if (success)
+            PlayerManager.Instance.AddScoreToCurrentPlayer(currentChallenge.scoreSuccess);
+        else
+            PlayerManager.Instance.AddScoreToCurrentPlayer(currentChallenge.scoreFail);
+
+        PlayerManager.Instance.NextTurn();
     }
 }

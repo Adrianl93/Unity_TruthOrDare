@@ -1,0 +1,677 @@
+{
+  "category": "Extreme",
+  "Truth": {
+    "VeryEasy": [
+      {
+        "id": "X-T-VE-001",
+        "description": "¿Alguna vez sentiste una atracción inesperada por alguien?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-002",
+        "description": "¿Te gusta provocar con miradas?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-003",
+        "description": "¿Te sentís cómodo con la tensión sexual?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-004",
+        "description": "¿Te gusta más mirar o que te miren?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-005",
+        "description": "¿Alguna vez coqueteaste solo por diversión?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-006",
+        "description": "¿Te considerás una persona sensual?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-007",
+        "description": "¿Te gusta el juego de la seducción?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-008",
+        "description": "¿Como notas que alguien te desea?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-009",
+        "description": "¿Te atrae más la actitud que el físico?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-010",
+        "description": "¿Te gusta generar intriga?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-011",
+        "description": "¿Te sentís cómodo con la cercanía física?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-012",
+        "description": "¿Te gusta recibir halagos?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-013",
+        "description": "¿Te considerás provocador sin proponértelo?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-014",
+        "description": "¿Alguna vez jugaste solo con miradas?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-015",
+        "description": "¿Te gusta romper el hielo?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-016",
+        "description": "¿Disfrutás ser el centro de atención?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-017",
+        "description": "¿Te sentís más sensual de noche?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-018",
+        "description": "¿Disfrutás la tensión previa a un acercamiento?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-VE-019",
+        "description": "¿Te gusta sentirte deseado?",
+        "scoreSuccess": 5,
+        "scoreFail": -5
+      }
+    ],
+    "Easy": [
+      {
+        "id": "X-T-E-001",
+        "description": "¿Que haces cuando te gusta alguien?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-002",
+        "description": "¿Te sentiste atraído por alguien prohibido?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-003",
+        "description": "¿Preferís provocar o ser provocado?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-004",
+        "description": "¿Te resulta excitante la cercanía física?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-005",
+        "description": "¿Alguna vez malinterpretaste una señal?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-006",
+        "description": "¿Te gusta tomar la iniciativa?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-007",
+        "description": "¿Te sentís cómodo mostrando deseo?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-008",
+        "description": "¿Alguna vez evitaste a alguien por atracción?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-009",
+        "description": "¿Te gusta generar tensión?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-010",
+        "description": "¿Preferís encuentros intensos o tranquilos?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-011",
+        "description": "¿Sentís química de inmediato con algunas personas?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-012",
+        "description": "¿Te gusta lo impredecible?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-013",
+        "description": "¿Te resulta excitante anticipar más que actuar?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-014",
+        "description": "¿Alguna vez deseaste a alguien en silencio?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-015",
+        "description": "¿Te sentís más seguro cuando alguien te desea?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-016",
+        "description": "¿Te atrae más la mente que el cuerpo?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-017",
+        "description": "¿Te gusta dominar o ser dominado?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-018",
+        "description": "¿Te sentís cómodo con el silencio cargado de tensión?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-T-E-019",
+        "description": "¿Alguna vez alguien te desarmó con una mirada?",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      }
+    ],
+    "Medium": [
+      {
+        "id": "X-T-M-001",
+        "description": "¿Alguna vez sentiste tensión sexual con alguien del grupo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-002",
+        "description": "¿Como exitarias a la persona al frente tuyo?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-003",
+        "description": "¿Conta con detalles que tiene que hacer alguien para exitarte?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-004",
+        "description": "¿Te excita más lo prohibido que lo permitido?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-005",
+        "description": "¿Has sentido deseo en un momento inapropiado?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-006",
+        "description": "¿Qué situación cotidiana te genera deseo sexual?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-007",
+        "description": "¿Alguna vez confundiste deseo con conexión emocional?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-008",
+        "description": "Explica como es para vos el primer encuentro sexual con una persona",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-009",
+        "description": "¿Menciona alguna cosa no sexual que te caliente sexualmente?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-010",
+        "description": "¿Alguna vez alguien te intimidó por atracción?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-011",
+        "description": "Cuenta tu anecdota sexual mas graciosa o vergonzosa",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-012",
+        "description": "¿Has sentido química sin contacto físico?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-013",
+        "description": "¿Qué límite te cuesta más respetar?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-014",
+        "description": "Confiesa una acción que hace que te entregues por completo",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-T-M-015",
+        "description": "¿Qué te resulta más seductor: una mirada o una voz?",
+        "scoreSuccess": 12,
+        "scoreFail": -8
+      }
+    ],
+    "Hard": [
+      {
+        "id": "X-T-H-001",
+        "description": "De las personas del grupo, con quien te gustaria tener un encuentro sexual",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-002",
+        "description": "El grupo elije a una persona (puede estar presente o no) y debes relatar que le harias en la cama",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-003",
+        "description": "¿Qué parte de vos se activa cuando sentís deseo?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-004",
+        "description": "¿Alguna vez cruzaste un límite que habías prometido no cruzar?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-005",
+        "description": "Relata con detalles tu encuentro sexual mas salvaje",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-006",
+        "description": "¿Has tenido sexo en público? de ser asi debes narrarlo con detalles",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-007",
+        "description": "¿Dejarias que te tomen fotos/videos íntimos?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-008",
+        "description": "Cuenta tu mayor fantasía sexual",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-009",
+        "description": "¿Quien es la persona a la que nunca le dirías que NO?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-010",
+        "description": "Que actividad sexual es la que mas disfrutas y ¿Porque?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-011",
+        "description": "¿Cuando fue la última vez que hiciste sexo oral?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-012",
+        "description": "¿Sexo anal, si o no? Justifique",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-013",
+        "description": "¿Como te sentiste luego de tu último encuentro sexual?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-014",
+        "description": "¿Tendrías sexo delante de otra persona?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-T-H-015",
+        "description": "¿Hiciste o harías un trio?",
+        "scoreSuccess": 18,
+        "scoreFail": -10
+      }
+    ]
+  },
+  "Dare": {
+    "VeryEasy": [
+      {
+        "id": "X-D-VE-001",
+        "description": "Debes realizar gemidos durante 1 minuto",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-002",
+        "description": "Debes sentarte en las piernas de otro jugador durante una ronda completa",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-003",
+        "description": "Los demás jugadores deben adivinar el color de tu ropa interior, si alguno acierta debes quitartela",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-004",
+        "description": "Muéstrale a los demas jugadores cual es tu postura sexual favorita",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-005",
+        "description": "Besa a un jugador usando lengua durante 3 minutos",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-006",
+        "description": "Seduce a un jugador de la forma que prefieras, si no consigues que te bese pierdes",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-007",
+        "description": "Tira una moneda, si sale Cara debes quitarte una prenda",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-008",
+        "description": "Di en voz alta 'Hoy me cojo a... [persona que te gusta]'",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-009",
+        "description": "Acaricia las piernas de un compañero durante toda la ronda",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-VE-010",
+        "description": "Dale un beso en el cuello a la persona del grupo que conozcas hace menos tiempo",
+        "scoreSuccess": 8,
+        "scoreFail": -5
+      }
+    ],
+    "Easy": [
+      {
+        "id": "X-D-E-001",
+        "description": "Haz que tus labios rocen los de otro jugador, si se besan pierdes",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-002",
+        "description": "Grita algo que te guste decir en la cama",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-003",
+        "description": "Haz un striptease para un compañero, debes quitarte al menos dos prendas",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-004",
+        "description": "Sientate en las piernas de un jugador mirando su cara durante una ronda",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-005",
+        "description": "Sientate al lado de la persona que mas te atraiga del grupo, debes sujetar su mano por una ronda",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-006",
+        "description": "¿Has tenido sexo con alguien del grupo? si es asi debes decir su/s nombres en forma de gemido",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-007",
+        "description": "Tira un dado, si sale del 1 al 3 es la cantidad de prendas que debes quitarte",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-008",
+        "description": "Deja que alguien te haga un cumplido",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-009",
+        "description": "Di qué tipo de energía te atrae",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      },
+      {
+        "id": "X-D-E-010",
+        "description": "Mira a alguien elegido por el grupo sin hablar durante 20 segundos",
+        "scoreSuccess": 12,
+        "scoreFail": -5
+      }
+    ],
+    "Medium": [
+      {
+        "id": "X-D-M-001",
+        "description": "Di un color en voz alta, todos los que tengan alguna ropa de ese color pueden darte una nalgada",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-002",
+        "description": "Permite que el grupo elija a quién mirarás fijamente",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-003",
+        "description": "Di en voz alta qué te resulta más provocador de una persona",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-004",
+        "description": "Deja que alguien te haga una pregunta personal",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-005",
+        "description": "Acércate a alguien hasta quedar a pocos centímetros",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-006",
+        "description": "Describe una fantasía usando metáforas",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-007",
+        "description": "Deja que alguien del grupo te dé una indicación incómoda",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-008",
+        "description": "Habla durante 30 segundos con tono seductor",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-009",
+        "description": "Dile a alguien qué te atrae de su forma de ser",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-010",
+        "description": "Mantén silencio mientras sostienes una mirada intensa",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      },
+      {
+        "id": "X-D-M-011",
+        "description": "Adopta una postura provocadora durante 30 segundos",
+        "scoreSuccess": 18,
+        "scoreFail": -8
+      }
+    ],
+    "Hard": [
+      {
+        "id": "X-D-H-001",
+        "description": "Mantén contacto visual intenso con alguien durante 1 minuto",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-002",
+        "description": "Susurra algo sugerente a alguien elegido por el grupo",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-003",
+        "description": "Permite que el grupo decida con quién debes quedarte cerca",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-004",
+        "description": "Di una confesión que nunca dirías en público",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-005",
+        "description": "Acércate a alguien hasta casi tocarlo y mantente ahí",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-006",
+        "description": "Describe un deseo sin mencionar personas",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-007",
+        "description": "Deja que alguien del grupo elija dónde sentarte",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-008",
+        "description": "Elije a alguien del grupo, este puede tocarte donde quiera por 2 minutos",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-009",
+        "description": "Realiza un masaje a un jugador de tu elección, tu elijes el lugar",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      },
+      {
+        "id": "X-D-H-010",
+        "description": "Elije un jugador, debes quitarle una prenda de forma sensual",
+        "scoreSuccess": 25,
+        "scoreFail": -10
+      }
+    ]
+  }
+}
