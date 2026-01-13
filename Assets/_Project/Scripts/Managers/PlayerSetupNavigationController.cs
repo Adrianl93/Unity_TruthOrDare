@@ -8,7 +8,7 @@ public class PlayerSetupNavigationController : MonoBehaviour
 
     public void GoBack()
     {
-        SceneManager.LoadScene("CategorySelect");
+        SceneManager.LoadScene("01CategorySelect");
     }
 
     public void ConfirmAndStartGame()
@@ -25,6 +25,6 @@ public class PlayerSetupNavigationController : MonoBehaviour
         GameSession.Instance.Data.PlayerNames = playerNames;
 
         // Avanzamos al juego
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("03Game");
     }
 }

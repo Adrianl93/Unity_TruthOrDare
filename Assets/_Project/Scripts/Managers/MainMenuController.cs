@@ -10,7 +10,7 @@ public class MainMenuController : MonoBehaviour
             GameSession.Instance.ResetSession();
         }
 
-        SceneManager.LoadScene("CategorySelect");
+        SceneManager.LoadScene("01CategorySelect");
     }
 
     public void OpenOptions()

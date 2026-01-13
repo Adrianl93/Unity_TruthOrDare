@@ -10,6 +10,6 @@ public class BackToMenuButton : MonoBehaviour
             GameSession.Instance.ResetForNewGame();
         }
         Debug.Log("REINICIO TOTAL DEL JUEGO a partir de aquí");
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("00MainMenu");
     }
 }

@@ -25,7 +25,7 @@ public class CurrentPlayerUIController : MonoBehaviour
         if (player == null)
             return;
 
-        playerNameText.text = $"Turno de: {player.Name}";
+        playerNameText.text = $"{player.Name}'s turn";
         scoreText.text = $"Score: {player.Score}";
     }
 }

@@ -32,6 +32,6 @@ public class CategorySelectionController : MonoBehaviour
 
         Debug.Log($"Categoría seleccionada: {category}");
 
-        SceneManager.LoadScene("PlayerSetup");
+        SceneManager.LoadScene("02PlayerSetup");
     }
 }
