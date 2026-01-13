@@ -2,7 +2,7 @@
 public class PlayerData
 {
     public string Name;
-    public int Score;
+    public int Score { get; private set; }
 
     public PlayerData(string name)
     {
@@ -10,8 +10,8 @@ public class PlayerData
         Score = 0;
     }
 
-    public void AddScore(int amount)
+    public void AddScore(int value)
     {
-        Score += amount;
+        Score += value;
     }
 }

@@ -19,10 +19,11 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
+      
 
-        SetState(GameState.MainMenu);
+        
     }
+
 
     // -----------------------------
     // STATE MANAGEMENT

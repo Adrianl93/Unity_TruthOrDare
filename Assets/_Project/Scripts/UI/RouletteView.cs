@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,11 +11,29 @@ public class RouletteView : MonoBehaviour
 
     public void PlaySpin(Action onComplete)
     {
+        if (wheel == null)
+        {
+            Debug.LogError("RouletteView: wheel NO asignado");
+            onComplete?.Invoke();
+            return;
+        }
+
         if (spinRoutine != null)
             StopCoroutine(spinRoutine);
 
-        float targetRotation = UnityEngine.Random.Range(720f, 1080f);
-        spinRoutine = StartCoroutine(SpinRoutine(targetRotation, onComplete));
+        // Cantidad de giro POSITIVA, pero aplicada en sentido horario
+        float rotationAmount = UnityEngine.Random.Range(720f, 1080f);
+
+        spinRoutine = StartCoroutine(
+            SpinRoutine(-rotationAmount, onComplete) // <- signo negativo
+        );
+    }
+
+    public void ForceReset()
+    {
+        StopAllCoroutines();
+        spinRoutine = null;
+        wheel.eulerAngles = Vector3.zero;
     }
 
     private IEnumerator SpinRoutine(float rotationAmount, Action onComplete)
@@ -28,8 +46,6 @@ public class RouletteView : MonoBehaviour
         {
             elapsed += Time.deltaTime;
             float t = Mathf.Clamp01(elapsed / spinDuration);
-
-            // Ease Out Cubic
             float easedT = 1f - Mathf.Pow(1f - t, 3);
 
             float currentRotation = Mathf.Lerp(startRotation, targetRotation, easedT);

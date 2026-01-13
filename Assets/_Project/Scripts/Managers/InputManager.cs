@@ -1,21 +1,17 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.UI;
 using System;
 
 public class InputManager : MonoBehaviour
 {
     public static InputManager Instance { get; private set; }
 
-    private PlayerInputActions input;
-
-    // Eventos públicos (no referencias directas)
     public event Action OnSpin;
-    public event Action OnConfirm;
-    public event Action OnCancel;
+
+    [SerializeField] private Button spinButton;
 
     private void Awake()
     {
-        // Singleton robusto
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -23,69 +19,37 @@ public class InputManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
 
-        input = new PlayerInputActions();
+        Debug.Log("InputManager inicializado correctamente (scene-bound)");
     }
 
     private void OnEnable()
     {
-        if (input == null)
-            input = new PlayerInputActions();
+        if (spinButton == null)
+        {
+            Debug.LogError("InputManager: SpinButton no asignado en inspector");
+            return;
+        }
 
-        EnableGameplayInput();
+        spinButton.onClick.RemoveAllListeners();
+        spinButton.onClick.AddListener(SpinPressed);
     }
 
     private void OnDisable()
     {
-        DisableGameplayInput();
+        if (spinButton != null)
+            spinButton.onClick.RemoveListener(SpinPressed);
     }
 
     private void OnDestroy()
     {
-        DisableGameplayInput();
+        if (Instance == this)
+            Instance = null;
     }
 
-    // -----------------------------
-    // INPUT MAP CONTROL
-    // -----------------------------
-
-    public void EnableGameplayInput()
+    public void SpinPressed()
     {
-        input.Gameplay.Enable();
-
-        input.Gameplay.Spin.performed += OnSpinPerformed;
-        input.Gameplay.Confirm.performed += OnConfirmPerformed;
-        input.Gameplay.Cancel.performed += OnCancelPerformed;
-    }
-
-    public void DisableGameplayInput()
-    {
-        if (input == null) return;
-
-        input.Gameplay.Spin.performed -= OnSpinPerformed;
-        input.Gameplay.Confirm.performed -= OnConfirmPerformed;
-        input.Gameplay.Cancel.performed -= OnCancelPerformed;
-
-        input.Gameplay.Disable();
-    }
-
-    // -----------------------------
-    // CALLBACKS INTERNOS
-    // -----------------------------
-
-    private void OnSpinPerformed(InputAction.CallbackContext context)
-    {
+        Debug.Log("InputManager: SpinPressed (UI Button)");
         OnSpin?.Invoke();
-    }
-
-    private void OnConfirmPerformed(InputAction.CallbackContext context)
-    {
-        OnConfirm?.Invoke();
-    }
-
-    private void OnCancelPerformed(InputAction.CallbackContext context)
-    {
-        OnCancel?.Invoke();
     }
 }

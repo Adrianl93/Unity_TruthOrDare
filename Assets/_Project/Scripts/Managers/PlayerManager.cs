@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -5,12 +6,15 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance { get; private set; }
 
-    public List<PlayerData> Players { get; private set; } = new List<PlayerData>();
-    public int CurrentPlayerIndex { get; private set; }
+    public IReadOnlyList<PlayerData> Players => players;
+    public PlayerData CurrentPlayer => players.Count > 0 ? players[currentPlayerIndex] : null;
+    public int CurrentPlayerIndex => currentPlayerIndex;
 
-    public PlayerData CurrentPlayer => Players.Count > 0
-        ? Players[CurrentPlayerIndex]
-        : null;
+    private readonly List<PlayerData> players = new();
+    private int currentPlayerIndex;
+
+    public event Action<PlayerData> OnScoreChanged;
+    public event Action<PlayerData> OnTurnChanged;
 
     private void Awake()
     {
@@ -24,42 +28,71 @@ public class PlayerManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // -----------------------------
-    // PLAYER SETUP
-    // -----------------------------
+    // ---------------------------------
+    // INITIALIZATION (FROM SESSION)
+    // ---------------------------------
 
-    public void CreatePlayers(List<string> names)
+    public void InitializeFromSession()
     {
-        Players.Clear();
+        ResetManager();
 
-        foreach (var name in names)
+        var session = GameSession.Instance;
+        if (session == null || session.Data == null)
         {
-            Players.Add(new PlayerData(name));
+            Debug.LogError("PlayerManager: GameSession no inicializada");
+            return;
         }
 
-        CurrentPlayerIndex = 0;
+        foreach (var name in session.Data.PlayerNames)
+        {
+            players.Add(new PlayerData(name));
+        }
+
+        currentPlayerIndex = 0;
+        OnTurnChanged?.Invoke(CurrentPlayer);
+
+        Debug.Log($"PlayerManager inicializado con {players.Count} jugadores");
     }
 
-    // -----------------------------
+    // ---------------------------------
     // TURN MANAGEMENT
-    // -----------------------------
+    // ---------------------------------
 
     public void NextTurn()
     {
-        if (Players.Count == 0)
+        if (players.Count == 0)
             return;
 
-        CurrentPlayerIndex++;
-        if (CurrentPlayerIndex >= Players.Count)
-            CurrentPlayerIndex = 0;
+        currentPlayerIndex = (currentPlayerIndex + 1) % players.Count;
+        OnTurnChanged?.Invoke(CurrentPlayer);
     }
 
-    // -----------------------------
+    // ---------------------------------
     // SCORE MANAGEMENT
-    // -----------------------------
+    // ---------------------------------
 
     public void AddScoreToCurrentPlayer(int amount)
     {
-        CurrentPlayer?.AddScore(amount);
+        if (CurrentPlayer == null)
+            return;
+
+        CurrentPlayer.AddScore(amount);
+        OnScoreChanged?.Invoke(CurrentPlayer);
+    }
+
+    // ---------------------------------
+    // RESET
+    // ---------------------------------
+
+    public void ResetManager()
+    {
+        players.Clear();
+        currentPlayerIndex = 0;
+
+        // IMPORTANTE: limpiamos eventos colgantes
+        OnScoreChanged = null;
+        OnTurnChanged = null;
+
+        Debug.Log("PlayerManager: reset completo");
     }
 }

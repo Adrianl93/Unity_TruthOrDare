@@ -4,31 +4,43 @@ public class SpinController : MonoBehaviour
 {
     [SerializeField] private RouletteView rouletteView;
     [SerializeField] private RouletteWheel rouletteWheel;
+    [SerializeField] private GameFlowController gameFlow;
 
-    private SpinResult currentResult;
-
-    private void OnEnable()
+    private void Start()
     {
-        InputManager.Instance.OnSpin += HandleSpin;
+        if (InputManager.Instance != null)
+        {
+            InputManager.Instance.OnSpin += HandleSpin;
+            Debug.Log("SpinController: Suscripto a OnSpin");
+        }
+        else
+        {
+            Debug.LogError("SpinController: InputManager no disponible en Start");
+        }
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
-        InputManager.Instance.OnSpin -= HandleSpin;
+        if (InputManager.Instance != null)
+        {
+            InputManager.Instance.OnSpin -= HandleSpin;
+            Debug.Log("SpinController: Desuscripto de OnSpin");
+        }
     }
 
     private void HandleSpin()
     {
+        Debug.Log("SpinController: HandleSpin EJECUTADO");
+
+        if (!gameFlow.RequestSpin())
+            return;
+
         rouletteView.PlaySpin(() =>
         {
             WheelResult wheelResult = rouletteWheel.GetResult();
+            SpinResult spinResult = SpinResolver.Resolve(wheelResult);
 
-            currentResult = SpinResolver.Resolve(wheelResult);
-
-            Debug.Log($"Jugador: {PlayerManager.Instance.CurrentPlayer.Name}");
-            Debug.Log(currentResult.Type == WheelType.Truth ? "VERDAD" : "RETO");
-            Debug.Log($"Dificultad: {currentResult.Difficulty}");
-            Debug.Log(currentResult.Card.description);
+            gameFlow.ShowChallenge(spinResult);
         });
     }
 }
