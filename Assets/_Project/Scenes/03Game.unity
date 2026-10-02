@@ -1326,6 +1326,7 @@ GameObject:
   - component: {fileID: 716407849}
   - component: {fileID: 716407848}
   - component: {fileID: 716407847}
+  - component: {fileID: 716407850}
   m_Layer: 5
   m_Name: Wheel
   m_TagString: Untagged
@@ -1405,6 +1406,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 716407845}
   m_CullTransparentMesh: 1
+--- !u!114 &716407850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716407845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4494c2936336dcc4ca1168f63f3bd8f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheel: {fileID: 716407846}
+  spinController: {fileID: 1240717854}
+  gameFlow: {fileID: 1932369433}
+  inertiaDamping: 6
+  maxAngularVelocity: 2000
+  windowsProfile:
+    dragMultiplier: 1.1
+    velocityAmplifier: 7
+    spinThreshold: 240
+  androidProfile:
+    dragMultiplier: 1.4
+    velocityAmplifier: 12
+    spinThreshold: 180
 --- !u!1 &732422745
 GameObject:
   m_ObjectHideFlags: 0
